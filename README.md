@@ -1,4 +1,4 @@
-# HeterGTransformer
+# HetGT
 An implementation for paper "Heterogeneous Graph Transformer for Graph-to-Sequence Learning" (accepted at ACL20).
 
 ## Requirements
