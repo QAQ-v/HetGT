@@ -5,7 +5,7 @@ An implementation for paper "Heterogeneous Graph Transformer for Graph-to-Sequen
 ```pip install -r requirements.txt```
 
 ## Preprocessing
-Transform the input graphs into Levi graphs. The code is modified from Konstas et al. (2017) and Guo et al., 2019.
+Transform the input graphs into Levi graphs. The code is modified from Beck et al. (2018) and Guo et al. (2019)
 
 For AMR-to-text, get the AMR Sembank (LDC2017T10) first and put the folder called abstract_meaning_representation_amr_2.0 inside the data folder. Then run:
 
