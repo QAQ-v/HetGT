@@ -5,10 +5,6 @@ if [ ! -d ${DATA_DIR} ]; then
     mkdir ${DATA_DIR}
 fi
 
-#cat ${DATA_DIR}/train.amr.bpe data/amr2015.bpe.10/dev.amr.bpe > ${DATA_DIR}/train.amr.bpe.both
-#cat ${DATA_DIR}/train.snt.bpe data/amr2015.bpe.10/dev.snt.bpe > ${DATA_DIR}/train.snt.bpe.both
-#cat ${DATA_DIR}/train.grh.bpe data/amr2015.bpe.10/dev.grh.bpe > ${DATA_DIR}/train.grh.bpe.both
-
 if [[ ${DATA_DIR} =~ bpe ]]; then
     echo "train bpe model"
     python preprocess.py   -train_src ${DATA_DIR}/train.en.tok.new.bpe \
