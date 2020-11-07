@@ -33,6 +33,7 @@ Then we will get the folder called data/nmt19/en2cs.bpe.8000.both.new. Prepare d
 ```bash predict.sh model/nmt19/cs/model/ADAM_acc61.23_ppl8.80_lr0.00021_step170000.pt data/nmt19/en2cs.bpe.8000.both.new 0 cs ```
 
 ## Citation
+```
 @inproceedings{yao-etal-2020-heterogeneous,
     title = "Heterogeneous Graph Transformer for Graph-to-Sequence Learning",
     author = "Yao, Shaowei  and
@@ -48,3 +49,4 @@ Then we will get the folder called data/nmt19/en2cs.bpe.8000.both.new. Prepare d
     pages = "7145--7154",
     abstract = "The graph-to-sequence (Graph2Seq) learning aims to transduce graph-structured representations to word sequences for text generation. Recent studies propose various models to encode graph structure. However, most previous works ignore the indirect relations between distance nodes, or treat indirect relations and direct relations in the same way. In this paper, we propose the Heterogeneous Graph Transformer to independently model the different relations in the individual subgraphs of the original graph, including direct relations, indirect relations and multiple possible relations between nodes. Experimental results show that our model strongly outperforms the state of the art on all four standard benchmarks of AMR-to-text generation and syntax-based neural machine translation.",
 }
+```
